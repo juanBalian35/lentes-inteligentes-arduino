@@ -19,4 +19,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/listView" />
 
+    <Button android:id="@+id/buttonTime"
+        android:text="show time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv"
+        />
+
+    <Button android:id="@+id/buttonVelocity"
+        android:text="show velocity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/buttonTime"
+        app:layout_constraintTop_toBottomOf="@id/tv"
+        />
+
 </android.support.constraint.ConstraintLayout>
