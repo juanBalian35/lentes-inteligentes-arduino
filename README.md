@@ -2,7 +2,7 @@
 
 https://youtu.be/3nPbc1DpMYg
 
-This project is made using an Arduino Nano, which through a bluetooth module receives commands from an Android App.
+Made using an Arduino Nano, which through a bluetooth module receives commands from this Android App.
 
 ## Features
 
